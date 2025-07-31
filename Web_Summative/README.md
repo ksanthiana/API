@@ -24,6 +24,6 @@ A real-time news aggregation application that fetches and displays news from mul
 
 1. **Clone and setup**:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/ksanthiana/API.git
    cd news-dashboard
    npm install
