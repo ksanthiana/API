@@ -1,18 +1,15 @@
 {
-  "name": "web_summative",
+  "name": "newsapi-proxy",
   "version": "1.0.0",
-  "description": "Global News Dashboard with API integration",
-  "main": "index.js",
+  "description": "A free proxy for NewsAPI requests",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "node-fetch": "^3.3.2"
-  },
-  "keywords": ["news", "api", "dashboard"],
-  "author": "Your Name",
-  "license": "MIT"
+  }
 }
